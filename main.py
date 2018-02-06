@@ -128,7 +128,7 @@ def get_videos(category):
                 'thumb' : "https://ipfs.io/ipfs/" + data['post']['json_metadata']['video']['info']['snaphash'],
                 'video': "https://ipfs.io/ipfs/" + data['post']['json_metadata']['video']['content']['video480hash'],
                 'genre' : 'dtube'}
-        videos.append(dtubeitem)ifps
+        videos.append(dtubeitem)
 
     return videos
     #return VIDEOS[category]
